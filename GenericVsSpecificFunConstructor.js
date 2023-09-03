@@ -17,21 +17,21 @@ function Student(rollNo, name, age, phyMarks, chemMarks, mathMarks) {
     }
 }
 
-var varsha = new Student(11, 'Mahima', 21, 90, 95, 91);
+var mahima = new Student(101, 'Mahima', 21, 90, 95, 91);
 console.log(mahima)
 console.log(mahima.total());
 console.log(mahima.grade());
 console.log("mahima instanceof Student : ", mahima instanceof Student);
 console.log("mahima instanceof Object : ", mahima instanceof Object);
 
-var prachi = new Student(101, 'Priya', 23, 76, 93, 85);
+var priya = new Student(101, 'Priya', 20, 76, 93, 85);
 console.log(priya)
 console.log(priya.total());
 console.log(priya.grade());
 console.log("priya instanceof Student : ", priya instanceof Student);
 console.log("priya instanceof Object : ", priya instanceof Object);
 
-var ashish = new Student(101, 'Pritam', 23, 96, 98, 78);
+var pritam = new Student(101, 'Pritam', 23, 96, 98, 78);
 console.log(pritam)
 console.log(pritam.total());
 console.log(pritam.grade());
