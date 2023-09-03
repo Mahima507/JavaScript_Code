@@ -18,24 +18,24 @@ function createStudent(rollNo, name, age, phyMarks, chemMarks, mathMarks) {
     }
     return student;
 }
-var varsha = createStudent(101, 'Varsha', 21, 90, 95, 91);
-console.log(varsha)
-console.log(varsha.total());
-console.log(varsha.grade());
-console.log("varsha instanceof createStudent : ", varsha instanceof createStudent);
-console.log("varsha instanceof Object : ", varsha instanceof Object);
+var mahima = createStudent(101, 'Mahima', 21, 90, 95, 91);
+console.log(mahima)
+console.log(mahima.total());
+console.log(mahima.grade());
+console.log("mahima instanceof createStudent : ", mahima instanceof createStudent);
+console.log("mahima instanceof Object : ", mahima instanceof Object);
 
 
-var prachi = createStudent(101, 'Prachi', 23, 76, 93, 85);
-console.log(prachi)
-console.log(prachi.total());
-console.log(prachi.grade());
-console.log("prachi instanceof createStudent : ", prachi instanceof createStudent);
-console.log("prachi instanceof Object : ", prachi instanceof Object);
+var priya = createStudent(101, 'Priya', 20, 76, 93, 85);
+console.log(priya)
+console.log(priya.total());
+console.log(priya.grade());
+console.log("priya instanceof createStudent : ", priya instanceof createStudent);
+console.log("priya instanceof Object : ", priya instanceof Object);
 
-var ashish = createStudent(101, 'Ashish', 20, 96, 98, 78);
-console.log(ashish)
-console.log(ashish.total());
-console.log(ashish.grade());
-console.log("ashish instanceof createStudent : ", ashish instanceof createStudent);
-console.log("ashish instanceof Object : ", ashish instanceof Object);
+var pritam = createStudent(101, 'Pritam', 23, 96, 98, 78);
+console.log(pritam)
+console.log(pritam.total());
+console.log(pritam.grade());
+console.log("pritam instanceof createStudent : ", pritam instanceof createStudent);
+console.log("pritam instanceof Object : ", pritam instanceof Object);
